@@ -14,19 +14,14 @@ function inView() {
   if (about.getBoundingClientRect().top <= 70) {
     activeChange = document.getElementById("about-link");
   } else {
-    //console.log(scrollPosition);
-    console.log(about.getBoundingClientRect().top);
     deactivate();
   }
-  //if (scrollPosition > (reviews.getBoundingClientRect().top + scrollY + reviews.clientHeight)) {
   if (reviews.getBoundingClientRect().top <= 70) {
     activeChange = document.getElementById("reviews-link");
   }
-  //if (scrollPosition > (samples.getBoundingClientRect().top + scrollY + samples.clientHeight)) {
   if (samples.getBoundingClientRect().top <= 70) {
     activeChange = document.getElementById("samples-link");
   }
-  //if (scrollPosition > (authors.getBoundingClientRect().top + scrollY + authors.clientHeight)) {
   if (authors.getBoundingClientRect().top <= 4) {
     activeChange = document.getElementById("authors-link");
   }

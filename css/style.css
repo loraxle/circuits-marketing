@@ -462,7 +462,7 @@ img.praise-top {
   margin-bottom: -2px;
   display: none;
 }
-section.praise > div {
+section.praise > div:first-child  {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -1063,6 +1063,7 @@ footer > div > img {
   width: 434.17px;
   height: 299px;
   z-index: 3;
+  pointer-events: none;
 }
 footer > div > div > h1 {
   font-family: "Lato";
@@ -1134,6 +1135,7 @@ footer > div > .available-wrap > h3 {
 .order-links-wrap a:last-child {
   width: 257px;
 }
+
 @media screen and (max-width: 48rem) {
 
   #header-book > div > div > h1 {
@@ -1218,7 +1220,7 @@ footer > div > .available-wrap > h3 {
     z-index: 3;
     margin-top: 40px;
   }
-  section.praise > div {
+  section.praise > div:first-child  {
     overflow-y: visible;
     margin-top: -30px;
   }
@@ -1347,14 +1349,32 @@ footer > div > .available-wrap > h3 {
     flex-direction: column;
     align-items: flex-end;
   }
+
+  .masked {
+    width: 100%;
+    -webkit-mask-image: url(../img/praise-bottom-mask.svg);
+    mask-image: url(../img/praise-bottom-mask.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: -299px;
+    z-index: 1;
+  }
   .praise-bg-tablet {
+    /*
     max-height: 1100px;
     position: absolute;
     bottom: -150px;
     right: 0px;
+    */
+    height: 1100px;
     z-index: 1;
     display: block;
-    mix-blend-mode: hard-light;
+    /*mix-blend-mode: hard-light;*/
   }
   section.authors {
     position: relative;
@@ -1700,9 +1720,11 @@ footer > div > .available-wrap > h3 {
   .samples-bg {
     bottom: -251px;
   }
+  /*
   .praise-bg-tablet {
     bottom: -180px;
   }
+  */
 }
 @media (min-width: 75rem) {
   .header-title > img.mobile-book {
@@ -1726,20 +1748,22 @@ footer > div > .available-wrap > h3 {
   .samples-bg {
     bottom: -300px;
   }
+  /*
   .praise-bg-tablet {
     bottom: -210px;
   }
+  */
 }
 @media (min-width: 87.5rem) {
   .samples-bg {
     bottom: -23.5%;
   }
+  /*
   .praise-bg-tablet {
     bottom: -16.5%;
   }
+  */
 }
-
-
 
 
 .dropdown {
