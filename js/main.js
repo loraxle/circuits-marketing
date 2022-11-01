@@ -8,10 +8,10 @@ var aboutTitle = document.getElementById("about-title");
 function inView() {
 
   if (mediaQuery.matches) {
-    if (document.body.scrollTop >= 508) {
+    if (document.body.scrollTop >= 608) {
       let sliderXOffset = sliderButtonsDiv.offsetLeft + ((window.innerWidth - 960) / 2) - 50;
       sliderXOffset = sliderButtonsDiv.getBoundingClientRect().left - 50;
-      let sliderYOffset = document.body.scrollTop - 316;
+      let sliderYOffset = document.body.scrollTop - 516;
       if (!sliderButtonsDiv.classList.contains("move")) {
         sliderButtonsDiv.classList.add("move");
         sliderButtonsDiv.style.transform = `translate(${sliderXOffset}px, ${sliderYOffset}px)`;

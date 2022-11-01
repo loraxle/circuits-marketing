@@ -48,10 +48,10 @@
       <img id="burg" src="./img/burger.svg" width="43px" height="32px">
     </div>
     <div>
-      <a href="#about">ABOUT</a>
-      <a href="#reviews">REVIEWS</a>
-      <a href="#samples">SAMPLES</a>
-      <a href="#authors">AUTHORS</a>
+      <a href="#about" onclick="document.getElementById('mobile-navigation').classList.remove('open');">ABOUT</a>
+      <a href="#reviews" onclick="document.getElementById('mobile-navigation').classList.remove('open');">REVIEWS</a>
+      <a href="#samples" onclick="document.getElementById('mobile-navigation').classList.remove('open');">SAMPLES</a>
+      <a href="#authors" onclick="document.getElementById('mobile-navigation').classList.remove('open');">AUTHORS</a>
     </div>
   </div>
   <nav>
@@ -95,7 +95,9 @@
       <p>In the late 1960s, two American corporate behemoths were poised to dominate the rapidly converging industries of computing and communications—the computer giant, IBM, and the regulated telecommunications monopoly, AT&T. But in 1968, a key ruling by the Federal Communications Commission gave small businesses a doorway into an emerging market for communication devices that could transmit computer data over telephone lines. In the two decades that followed, an industry of networking technology emerged that would impact human history in profound and unfathomable ways.<span class="br"></span><b>Circuits, Packets, and Protocols</b> is a groundbreaking study of the men and women in the engineering labs, board rooms, and regulatory agencies whose decisions determined the evolution of our modern digital communication networks.<span class="br"></span><span class="column-break"></span>Unlike histories that glorify the dominant players with the benefit of hindsight, this is a history of a pivotal era as it happened. Drawing on more than 80 interviews recorded in 1988, the book features insights from now-famous individuals such as <b>Paul Baran, JCR Licklider, Vint Cerf, Louis Pouzin,</b> and <b>Robert Metcalfe.</b><span class="br"></span>Inspired by innovations from government-sponsored Cold War defense projects and the birth of the modern venture capital industry, these trailblazers and many others built the technologies and companies that became essential building blocks in the development of today’s Internet. Many of the companies and products failed, even while they helped propel the industry forward at breakneck speed.<span class="br"></span>Equal parts academic history and thrilling startup drama, <b>Circuits, Packets, and Protocols</b> gives the reader a vivid picture of what it was like to take part in one of the most exciting periods of technological advance in our time.</p>
     </div>
   </section>
-  <a id="reviews"></a>
+  <div style="position: relative;">
+    <a id="reviews"></a>
+  </div>
   <img src="img/praise-top-mobile.svg" class="praise-top-mobile">
   <img src="img/praise-top-tablet.svg" class="praise-top-tablet">
   <img src="img/praise-top.svg" class="praise-top">
@@ -387,9 +389,9 @@
       <div id="readmoresamples">
         <div>
           <ul>
-            <li><div class="triangle"><img src="img/litri.svg"><span>Introduction</span></div></li>
-            <li><div class="triangle"><img src="img/litri.svg"><span>Chapter 1 - Prelude to Change: Data Communications, 1949-1968</span></div></li>
-            <li><div class="triangle"><img src="img/litridown.svg" class="tridown"><span>Chapter 2 - Onset of Competition: Data Communications, 1968-1972</span></div>
+            <li>Introduction</li>
+            <li>Chapter 1 - Prelude to Change: Data Communications, 1949-1968</li>
+            <li>Chapter 2 - Onset of Competition: Data Communications, 1968-1972
               <ul>
                 <li>2.1 Overview</li>
                 <li>2.2 Government and AT&T
@@ -436,10 +438,10 @@
                 <li>2.8 Strategic Partnerships in the Data Communications Market-Structure: 1971-1972</li>
               </ul>
             </li>
-            <li><div class="triangle"><img src="img/litri.svg"><span>Chapter 3 - Packet Switching and ARPANET: Networking, 1959-1972</span></div></li>
-            <li><div class="triangle"><img src="img/litri.svg"><span>Chapter 4 - Market Order: Data Communications, 1973-1979</span></div></li>
-            <li><div class="triangle"><img src="img/litri.svg"><span>Chapter 5 - Protocol Confusion: Networking,1972-1979</span></div></li>
-            <li><div class="triangle"><img src="img/litridown.svg" class="tridown"><span>Chapter 6 - Emergence of Local Area Networks: Networking, 1976-1981</span></div>
+            <li>Chapter 3 - Packet Switching and ARPANET: Networking, 1959-1972</li>
+            <li>Chapter 4 - Market Order: Data Communications, 1973-1979</li>
+            <li>Chapter 5 - Protocol Confusion: Networking,1972-1979</li>
+            <li>Chapter 6 - Emergence of Local Area Networks: Networking, 1976-1981
               <ul>
                 <li>6.1 Overview</li>
                 <li>6.2 Early Networking Pioneers</li>
