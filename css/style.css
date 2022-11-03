@@ -176,7 +176,7 @@ section.book {
   flex-direction: column;
   align-items: center;
   flex: auto;
-  overflow-y: visible;
+  /*overflow-y: visible;*/
   background-image: url(../img/gradient-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +193,7 @@ section.book > div {
   display: flex;
   justify-content: center;
   flex: auto;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   pointer-events: none;
 }
 
