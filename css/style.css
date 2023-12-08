@@ -322,7 +322,6 @@ section.book > div {
   border-color: #FFEF96;
 }
 .header-title > .order-wrap a:last-child {
-  width: 257px;
   margin-top: 20px;
 }
 #header-book {
@@ -1172,9 +1171,6 @@ footer > div > .available-wrap > h3 {
   background: #FE6D02;
   border-color: #FFEF96;
 }
-.order-links-wrap a:last-child {
-  width: 257px;
-}
 @media screen and (max-width: 48rem) {
   .praise-card {
     padding: 40px 32px 40px;
@@ -1938,7 +1934,6 @@ footer > div > .available-wrap > h3 {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 257px;
   perspective: 1000px;
   z-index: -1;
   padding-inline-start: 0;
@@ -1974,9 +1969,6 @@ footer > div > .available-wrap > h3 {
 }
 .dropdown_menu li:first-child a {
   width: 204px;
-}
-.dropdown_menu li:last-child a {
-  width: 257px;
 }
 
 .dropdown_menu-1 .dropdown_item-1 {
