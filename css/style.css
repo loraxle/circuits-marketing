@@ -1742,9 +1742,6 @@ footer > div > .available-wrap > h3 {
   .header-title > .order-wrap > div > a:first-child {
     min-width: 204px;
   }
-  .header-title > .order-wrap > div > a:last-child {
-    min-width: 257px;
-  }
   .header-title > .order-wrap a:first-child {
     margin: 0px 30px 0 0;
   }
